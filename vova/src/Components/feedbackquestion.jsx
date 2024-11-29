@@ -31,6 +31,7 @@ function Feedbackquestion() {
                             <p>Согласен с <span className="span1">условиями сотрудничества</span></p>
                         </div>
 
+
                     </div>
                     <div className="feedbackquestion_button">
                         <button className="zakaz">Заказ по телефону</button>
