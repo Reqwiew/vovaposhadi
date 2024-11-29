@@ -1,0 +1,59 @@
+.feedMain{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.feedbackquestion_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.feedbackquestion_left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:start;
+}
+.feedbackquestion_button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.zakaz{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #64D370;
+    border-radius: 50px;
+    background-color: inherit;
+    color: #64D370;
+}
+.feedbackquestion_input_check{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feedbackquestion_input_check_check_1{
+    display: flex;
+    gap: 10px;
+
+
+}
+.feedbackquestion_input p{
+    color: #64D370;
+}
+.feedbackquestion_input input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #64D370;
+    border-radius: 50px;
+    padding: 0 0 0  5px;
+
+}

@@ -1,0 +1,70 @@
+.menu-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    top: 800px;
+    left: 86%;
+    z-index: 1000!important;
+}
+
+/* Центральная кнопка */
+.central-button {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.3s ease;
+}
+
+.central-button:focus {
+    outline: none;
+}
+
+/* Радиальные кнопки (контейнер) */
+.radial-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: scale(0);
+
+}
+.radial-buttons img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.radial-buttons.open {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Кнопки, расположенные в левой нижней четверти */
+.radial-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.radial-button:hover {
+    background-color: white;
+}

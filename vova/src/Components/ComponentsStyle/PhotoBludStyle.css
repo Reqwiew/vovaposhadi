@@ -1,0 +1,36 @@
+.title_sl{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.elip11{
+    position: absolute;
+    top: 1900px;
+    z-index: -143!important;
+    left:1450px;
+
+}
+.elip12{
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+}
+.elip13{
+    position: absolute;
+    top: 3000px;
+    left: 600px;
+}
+.elip14{
+    position: absolute;
+    top: 3500px;
+    z-index: -143!important;
+}
+.elip15{
+    position: absolute;
+    top: 3100px;
+    right:00px;
+    rotate: 180deg;
+}
